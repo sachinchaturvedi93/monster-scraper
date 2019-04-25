@@ -73,6 +73,26 @@ Now if we refer to the output that we got in the beginning importing json and pp
 
 So, the above output give us the JobIDs for 2 pages since the start URL is set up to 2 pages for now. If we change it to 50 pages, we will get JobIDs for upto 50 pages. You can see we have used try and except statement here for Exception Handling.
 
+## Let’s See What We Got Till Now
+
+1. We have the start URL for the Job Title & Location. This link represent entries till page 2 as it is visible in the given URL.
+```
+https://www.monster.com/jobs/search/pagination/?q=Product-Manager&where=USA&isDynamicPage=true&isMKPagination=true&page=2
+```
+2. We have the start URL for every Job in JSON format. All we need is the Job IDs.
+```
+https://job-openings.monster.com/v2/job/pure-json-view?jobid=
+```
+3. We have the JobIDs, which we extracted from the start URL in No 1.
+
+![alt text](https://cdn-images-1.medium.com/max/800/1*dY02NShcdvM2NEGhFmbzcQ.jpeg)
+
+## Next Steps
+
+Let us beautify the JSON data we have so that it is readable. I use JSON Formatter & Validator for this. Copy all your data and paste it in the empty box and click on Process. Voila!
+
+
+
 
 
 
