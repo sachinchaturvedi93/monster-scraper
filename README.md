@@ -29,13 +29,37 @@ Now let’s go to the monster website and search for Product Manager in USA. We 
 > What we are trying to do here is find a pattern in the URL so that we can apply that to do iterations for multiple pages. You’ll see below we will find the URL ending with page =2 which represents that the page number is 2.
 
 ![alt text](https://cdn-images-1.medium.com/max/1200/1*pNPqGL1B-m2-pdvz32kECQ.jpeg)
-
 ![alt text](https://cdn-images-1.medium.com/max/1200/1*LjXsVeKtUVFYyr9AIb8OMg.jpeg)
 
 Now what we will do is take out the Request URL from the Headers tab and put it as a start URL in our spider to see what we get.
 
 ![alt text](https://cdn-images-1.medium.com/max/600/1*Oftt-rPWpGGMq9H0iu2w0g.jpeg)
 ![alt text](https://cdn-images-1.medium.com/max/600/1*hP5BxqIeO9R3d-lA3HeiWw.jpeg)
+
+As you can see that the output is JSON encoded data. We will import pprint and json to make it more readable.
+
+![alt text](https://cdn-images-1.medium.com/max/600/1*d4FpC_JvVMi69I04A6d7wA.jpeg)
+![alt text](https://cdn-images-1.medium.com/max/600/1*l2dV2Ao4gihyQ7Ujs9v0uw.jpeg)
+
+If you go through the output you will find many interesting things like Title, JobViewUrl, etc. I’m wondering what will happen if I try to open any JobViewUrl in the browser. Let’s check it out. And it certainly does open the job link on a separate page.
+
+Let’s try something else. Let’s go the URL https://www.monster.com/jobs/search/?q=Product-Manager&where=USA and click on the jobs given on the left pane and see what pops up in the Network tab.
+
+![alt text](https://cdn-images-1.medium.com/max/600/1*vLwa09_Sr_G-H_dDNM87fg.jpeg)
+![alt text](https://cdn-images-1.medium.com/max/600/1*dStzYToYMm_XAAxMZCzp8Q.jpeg)
+
+> We get this whenever we click on a specific job posting. As we will see below, every job posting has data encoded in JSON format.
+
+If you search any text from the Job Description it would show up in the Response tab. Which shows we can get our desired output from the Request URL in the Headers tab in JSON format.
+
+But when you take out the URL you find that it’s too complex. Have a look at it.
+
+> https://job-openings.monster.com/v2/job/pure-json-view?Js30Flow=%7B%22searchPath%22:%22%22,%22q%22:%22Product-Manager%22,%22where%22:%22USA%22,%22useLpfRootPrefix%22:true%7D&jobid=205603967&callback=jQuery33105010418825622995_1551036585977. The link above is complex with so many components. Let’s see if we can do something about this.
+
+
+
+
+
 
 
 
