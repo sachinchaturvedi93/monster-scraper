@@ -1,7 +1,7 @@
 # Web Scraping Job Websites with Python using Scrapy and JSON APIs
 
 ## Objective
-Objective of this exercise is to automate collecting data points like company name, job description, job category, company size, etc. from Job Websites like Monster.com
+Objective of this exercise is to automate collecting data points like Company Name, Job Description, Job Category, Company Size, etc. from Job Websites like Monster.com
 
 ## Process Flow
 We would require two variables to carry on this exercise:
