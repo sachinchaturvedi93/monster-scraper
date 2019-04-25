@@ -10,6 +10,8 @@ We would require two variables to carry on this exercise:
 
 We write a Script in Python using **_Scrapy_** library to extract data for the given **_Job Role_** & **_Location_**. 
 
+![alt text](http://oi67.tinypic.com/32zni38.jpg)
+
 This script returns data in the **_JSON_** format which is finally converted into a **CSV** format.
 
 
