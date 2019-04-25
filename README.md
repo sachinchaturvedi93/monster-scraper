@@ -30,4 +30,14 @@ Now let’s go to the monster website and search for Product Manager in USA. We 
 
 ![alt text](https://cdn-images-1.medium.com/max/1200/1*pNPqGL1B-m2-pdvz32kECQ.jpeg)
 
+![alt text](https://cdn-images-1.medium.com/max/1200/1*LjXsVeKtUVFYyr9AIb8OMg.jpeg)
+
+Now what we will do is take out the Request URL from the Headers tab and put it as a start URL in our spider to see what we get.
+
+![alt text](https://cdn-images-1.medium.com/max/600/1*Oftt-rPWpGGMq9H0iu2w0g.jpeg)
+![alt text](https://cdn-images-1.medium.com/max/600/1*hP5BxqIeO9R3d-lA3HeiWw.jpeg)
+
+
+
+
 
