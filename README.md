@@ -1,1 +1,4 @@
-https://medium.com/@sachin93/web-scraping-using-scrapy-with-json-apis-10ce1b5c0fa1
+# Webscraping Job Websites with Python using Scrapy and JSON APIs
+
+Objective of this exercise is to automate collecting data points like company name, job category, job category, company size, etc.
+
