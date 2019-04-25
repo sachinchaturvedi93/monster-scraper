@@ -54,7 +54,16 @@ If you search any text from the Job Description it would show up in the Response
 
 But when you take out the URL you find that it’s too complex. Have a look at it.
 
-> https://job-openings.monster.com/v2/job/pure-json-view?Js30Flow=%7B%22searchPath%22:%22%22,%22q%22:%22Product-Manager%22,%22where%22:%22USA%22,%22useLpfRootPrefix%22:true%7D&jobid=205603967&callback=jQuery33105010418825622995_1551036585977. The link above is complex with so many components. Let’s see if we can do something about this.
+```
+https://job-openings.monster.com/v2/job/pure-json-view?Js30Flow=%7B%22searchPath%22:%22%22,%22q%22:%22Product-Manager%22,%22where%22:%22USA%22,%22useLpfRootPrefix%22:true%7D&jobid=205603967&callback=jQuery33105010418825622995_1551036585977. 
+```
+The link above is complex with so many components. Let’s see if we can do something about this.
+Let’s see what happens if we include just the jobid in the link and remove everything as follows :
+```
+https://job-openings.monster.com/v2/job/pure-json-view?jobid=205603967
+```
+
+
 
 
 
