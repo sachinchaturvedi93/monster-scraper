@@ -94,6 +94,8 @@ Let us beautify the JSON data we have so that it is readable. I use JSON Formatt
 ![alt text](https://cdn-images-1.medium.com/max/600/1*F9GLYCpOis6RWMdQvJVW5g.jpeg)
 ![alt text](https://cdn-images-1.medium.com/max/600/1*C-ystU3nyZYIxhC-Tv4Q4A.jpeg)
 
+You can see after using the JSON formatter the data is much easier to read. Select what attributes you want to scrape/extract like Company Name, Location, Job Description, Company Size, etc. Refer to the monster-spider.py for the code.
+
 
 
 
