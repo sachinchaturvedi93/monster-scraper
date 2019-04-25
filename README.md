@@ -62,6 +62,16 @@ Let’s see what happens if we include just the jobid in the link and remove eve
 ```
 https://job-openings.monster.com/v2/job/pure-json-view?jobid=205603967
 ```
+![alt text](https://cdn-images-1.medium.com/max/1200/1*F9GLYCpOis6RWMdQvJVW5g.jpeg)
+
+Perfect! If you search something from the Job Description(through which we got the link) you will find it in this JSON encoded data.
+
+Now if we refer to the output that we got in the beginning importing json and pprint, we can see clearly that JobID is represented by key MusangKingID. Go through the output and try to see what it all represents. Like, Title refers to the Job Title, JobViewUrl refers to the URL of that specific job. Under Company you will find, Company URL and name of the Company.
+
+![alt text](https://cdn-images-1.medium.com/max/800/1*Dm22yBEOKAMvPEevWgKrYQ.jpeg)
+
+
+
 
 
 
