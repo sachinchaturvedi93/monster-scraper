@@ -91,6 +91,8 @@ https://job-openings.monster.com/v2/job/pure-json-view?jobid=
 
 Let us beautify the JSON data we have so that it is readable. I use JSON Formatter & Validator for this. Copy all your data and paste it in the empty box and click on Process. Voila!
 
+![alt text](https://cdn-images-1.medium.com/max/600/1*F9GLYCpOis6RWMdQvJVW5g.jpeg)
+![alt text](https://cdn-images-1.medium.com/max/600/1*C-ystU3nyZYIxhC-Tv4Q4A.jpeg)
 
 
 
