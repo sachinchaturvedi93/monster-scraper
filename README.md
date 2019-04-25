@@ -16,3 +16,18 @@ Your spider is created!! Now go to the directory scrapy/monster/monster/spiders.
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*m_SiAfqk_e0dQsiYU0fzzg.jpeg)
 
+Let’s try out the basic spider now. Go to your terminal and type :
+```
+scrapy crawl monster-spider
+```
+![alt text](https://cdn-images-1.medium.com/max/800/1*gbAS2WeFQFYizyvCAD23ng.jpeg)
+
+The output would be something like in the image above. We see that our spider is getting redirected to monster.com.
+
+Now let’s go to the monster website and search for Product Manager in USA. We see that the URL https://www.monster.com/jobs/search/?q=Product-Manager&where=USA&stpage=1&page=6&jobid=a0d751b0-a2d4-4ce4-9d1a-85ee2a2cba9b and https://www.monster.com/jobs/search/?q=Product-Manager&where=USA takes us to the same page. We use this URL - https://www.monster.com/jobs/search/?q=Product-Manager&where=USA while inspecting(Ctrl +Shift+I, in Google Chrome(Windows))the website. Go down and click on “Load more jobs” and check the Network tab. Check illustrations below for reference.
+
+> What we are trying to do here is find a pattern in the URL so that we can apply that to do iterations for multiple pages. You’ll see below we will find the URL ending with page =2 which represents that the page number is 2.
+
+![alt text](https://cdn-images-1.medium.com/max/1200/1*pNPqGL1B-m2-pdvz32kECQ.jpeg)
+
+
