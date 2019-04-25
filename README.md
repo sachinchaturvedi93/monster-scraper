@@ -69,6 +69,9 @@ Perfect! If you search something from the Job Description(through which we got t
 Now if we refer to the output that we got in the beginning importing json and pprint, we can see clearly that JobID is represented by key MusangKingID. Go through the output and try to see what it all represents. Like, Title refers to the Job Title, JobViewUrl refers to the URL of that specific job. Under Company you will find, Company URL and name of the Company.
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*Dm22yBEOKAMvPEevWgKrYQ.jpeg)
+![alt text](https://cdn-images-1.medium.com/max/800/1*dY02NShcdvM2NEGhFmbzcQ.jpeg)
+
+So, the above output give us the JobIDs for 2 pages since the start URL is set up to 2 pages for now. If we change it to 50 pages, we will get JobIDs for upto 50 pages. You can see we have used try and except statement here for Exception Handling.
 
 
 
