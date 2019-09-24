@@ -1,2 +1,4 @@
 scrapy
 BeautifulSoup
+json
+pprint
